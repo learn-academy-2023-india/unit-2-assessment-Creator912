@@ -13,7 +13,9 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in an array of numbers and returns an array with all the numbers multiplied by 3.
 
 // a) Create a test with expect statements for each of the variables provided.
-
+describe("stringSentence"), () => {
+    it("is a function that takes an object as an argument and decides if the number inside it is evenly divisible by three or not", () => {  
+}
 const numbersArray1 = [6, 7, 8, 9, 10]
 // Expected output: [18, 21, 24, 27, 30]
 const numbersArray2 = [24, 27, 30, 33, 36]
@@ -21,6 +23,13 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 // b) Create the function that makes the test pass.
 
+    const stringSentence = (object) => {
+        if (object /3 === true){
+            return `${object} is divisible by three`
+        } else if (object /3 === false){
+            return `${object} is not divisible by three`
+        }    
+    }
 // Pseudo code:
 
 // --------------------1) Create a function that takes a object as an argument and decides if the number inside it is evenly divisible by three or not.
